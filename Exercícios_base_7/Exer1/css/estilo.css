@@ -1,0 +1,59 @@
+article
+{
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.container
+{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 5px;
+}
+.dentro
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+.container:active .dentro
+{
+    transform: rotateY(180deg);
+}
+.frente, .atras
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    backface-visibility: hidden;
+}
+.atras
+{
+    background-color: rgb(161, 161, 161);
+    color: rgb(0, 195, 255);
+    transform: rotateY(180deg);
+    border-radius: 5px;
+    line-height: 150px;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+@keyframes shad
+{
+    50%
+    {
+        box-shadow: 10px 10px 10px black;
+    }
+}
+.container:hover
+{
+    animation: shad 3s linear infinite;
+}
