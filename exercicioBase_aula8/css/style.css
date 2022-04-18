@@ -1,0 +1,95 @@
+body
+{
+    background-color: rgb(245, 214, 121);
+}
+.fundo
+{
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(148, 188, 53);
+    padding: 15px;
+    border: 1px solid white;
+}
+header
+{
+    background-color: rgb(118, 159, 19);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 15px 15px 0 0;
+    color: white;
+
+}
+header p
+{
+    margin: 0;
+}
+.text
+{
+    margin-left: 20px;
+}
+h3
+{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+nav
+{
+    background-color: rgb(245, 214, 121);
+    padding: 15px;
+}
+a
+{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+section
+{
+    width: 650px;
+    background-color: white;
+    border-right: 1px solid green;
+    float: left;
+    margin: 0;
+}
+section h3
+{
+    color: rgb(148, 188, 53);
+}
+.conteudo
+{
+    margin: 0 30px;
+    padding: 15px;
+}
+.conteudo img
+{
+    width: 600px;
+}
+aside
+{
+    float: left;
+    list-style: none;
+    width: 309px;
+    background-color: rgb(243, 229, 182);
+    height: 670px;
+    padding-top: 20px;
+}
+aside a
+{
+    margin: 50px;
+    line-height: 30px;
+    color: rgb(148, 188, 53);
+}
+aside p
+{
+    margin-left: 30px;
+}
+footer
+{
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+}
+#clear
+{
+    clear: both;
+}
