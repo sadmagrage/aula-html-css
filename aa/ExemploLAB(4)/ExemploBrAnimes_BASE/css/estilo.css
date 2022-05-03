@@ -1,0 +1,231 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 960px;
+    margin: auto;
+}
+header
+{
+    background-color: black;
+    color: white;
+}
+header .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+header section, header nav
+{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#direita
+{
+    flex-grow: 1;
+}
+#direita section
+{
+    letter-spacing: 5px;
+    font-size: 14pt;
+    font-style: italic;
+}
+#logo
+{
+    width: 250px;
+}
+#logo img
+{
+    width: 100%;
+}
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+}
+header nav a:hover
+{
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 25px;
+}
+main
+{
+    width: 960px;
+    margin: auto;
+    min-height: 400px;
+
+}
+main h1
+{
+    text-align: center;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer nav a
+{
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+}
+footer nav a:hover
+{
+    color: yellow;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.texto_banner
+{
+    font-size: 30pt;
+    text-align: center;
+}
+#assistir, #assinar
+{
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+#assistir
+{
+    background-color: #b62222;
+}
+#assinar
+{
+    background-color: #3d2a91;
+}
+.destaque
+{
+    background-color: #ccc;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+.destaque div
+{
+    display: flex;
+}
+.destaque figure img
+{
+    width: 150px;
+}
+#galeria
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#galeria img
+{
+    width: 250px;
+    margin: 10px;
+}
+.programacao
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.programacao h3
+{
+    width: 100%;
+}
+.programacao article img
+{
+    width: 150px;
+    margin: 10px;
+}
+.programacao article
+{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+}
+.programacao article div
+{
+    padding: 30px;
+}
+#destaque_plus
+{
+    display: flex;
+    justify-content: space-between;
+}
+#destaque_plus p
+{
+    text-align: center;
+}
+.planos
+{
+    width: 300px;
+    border: 2px solid #3d2a91;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+}
+.planos ul
+{
+    text-align: left;
+}
+.planos p
+{
+    font-size: 14pt;
+}
+.planos p span
+{
+    font-size: 20pt;
+    color: #3d2a91;
+}
+#contato
+{
+    display: flex;
+    justify-content: space-around;
+}
+input, textarea
+{
+    display: block;
+    background-color: #ccc;
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+}
+#contato button
+{
+    font-size: 18pt;
+    width: 100%;
+    height: 50px;
+    background-color: #8928d8;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
